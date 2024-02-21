@@ -2,11 +2,10 @@
 interface Props {
 	title: string;
     desc: string;
-	body: string;
 
 }
 
-const {title,desc, body } = Astro.props;
+const {title,desc } = Astro.props;
 ---
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo">
 <style>
@@ -38,15 +37,11 @@ font-size: .875rem;
     line-height: 1.7em;
     letter-spacing: -.9px;
 	}
-	.content{
-		padding: 24px;
-		margin:0 5rem;
-	}	
+	
 </style>
-<div class="content">
+<div >
     <h1 class="h">{title}</h1>
 <p class="description">{desc}</p>
-<p> {body} </p>
 </div>
 
 
