@@ -6,7 +6,7 @@ Under the hood, when your device is connected to the internet, it’s assigned a
 
 This is composed of 4 sets of numbers, from 0 to 255. You can find this number in the network settings of your device.
 
-For example, the IP address of my MacBook now is 192.168.1.105. Addresses that start with 192.168. are reserved for local networks. That’s your local network.
+For example, the IP address of my MacBook now is ```192.168.1.105```. Addresses that start with ```192.168.``` are reserved for local networks. That’s your local network.
 
 The local network is created by your Wi-Fi/Ethernet router. The router is the device that’s connected to the internet provider.
 
@@ -32,7 +32,7 @@ This time, the IP address is public because the server is created to be reached,
 
 A server also has a name, which we call a domain name.
 
-Other computers, called DNS servers, have the job of mapping a domain name to an IP address. So instead of saying “visit 142.250.184.78 ” we say “visit google.com”.
+Other computers, called DNS servers, have the job of mapping a domain name to an IP address. So instead of saying “visit ```142.250.184.78``` ” we say “visit google.com”.
 
 Humans work best with names, computers work best with numbers. DNS makes it all very easy for both.
 

@@ -1,9 +1,10 @@
-When making network requests, you use an IP address, or a host name, and a port.
+When making network requests, you use an **IP address**, or a host name, and a **port**.
 
 Like this:
 
-http://localhost:8080 (port 8080)
-ftp://127.0.0.1:4321 (port 4321)
+- ```http://localhost:8080``` (port 8080)
+- ```ftp://127.0.0.1:4321``` (port 4321)
+
 What is a port, exactly?
 
 It’s a technique introduced to allow multiple applications to respond on the same computer, on the same protocol.
